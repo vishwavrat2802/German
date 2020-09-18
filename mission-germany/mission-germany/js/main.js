@@ -12,15 +12,10 @@ function change1(){
 $(document).ready(function(){
 	$("#click1").click(function(){
 	  $("#panel1").slideDown("slow");
-		$("#click1").click(function(){
-			$("#panel1").fadeTo(1,0);
-		})
-	  }
 	});
 	$("#click2").click(function(){
 		$("#panel2").slideDown("slow");
 	  });
-	
   });
 
 
