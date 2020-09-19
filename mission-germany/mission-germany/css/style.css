@@ -9387,7 +9387,7 @@ textarea.form-control {
   background-color: red;
 }
 #box3 {
-  background-color: var(--yellow);
+  background-color: dark;
 }
 
 #blackc {
@@ -9405,7 +9405,7 @@ textarea.form-control {
     border : 3px solid white;
     padding:10px;
 }
-#panel1,#panel2, #flip {
+#panel1,#panel2,#panel3 #flip {
   padding: 5px;
   text-align: center;
   background-color: cornsilk;
@@ -9414,7 +9414,7 @@ textarea.form-control {
   position:relative;
 }
 
-#panel1, #panel2{
+#panel1, #panel2,#panel3{
   display: none;
   z-index: +10;
   width: 100%;
