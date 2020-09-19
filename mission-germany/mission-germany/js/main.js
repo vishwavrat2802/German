@@ -16,6 +16,9 @@ $(document).ready(function(){
 	$("#click2").click(function(){
 		$("#panel2").slideDown("slow");
 	  });
+	  $("#click3").click(function(){
+		$("#panel3").slideDown("slow");
+	  });
   });
 
 
