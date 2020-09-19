@@ -48,7 +48,7 @@
       <div class="overlay"></div>
       <div class="container-fluid px-0">
       	<div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
-			  <div id="changemap">
+			  <div>
 				<img src="images/map.png" id="changemap" alt="" width="450" height="500" style="margin-right: 10vw">
 			  </div>
 	        <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
@@ -64,11 +64,11 @@
     </section>
 
     <section class="ftco-section ftco-no-pb ftco-partner">
-    	<div class="container">
+    	<div class="container" style="text-align: center;">
     		<div class="row d0">
     			<div class="col-md-6 col-lg ftco-animate">
-					<a href="#" class="partner d-flex justify-content-center" style="padding: 0px;">
-    				<div class="d1" onclick="change();">
+					<a href="index1.html" class="partner d-flex justify-content-center" style="padding: 0px;">
+    				<div class="d1">
 						
 						
 							<img src="images/partner-1.png" class="img-fluid" alt="Colorlib Template">
@@ -472,7 +472,7 @@
     			<div class="boxes" id="box1">
 					<div class="row">
 						<div class="col-md-5" id="image">
-							<img src="images/black.jpg" width="100%">
+							<img src="../images/black.jpg" width="100%">
 						</div>
 						<div class="col-md-7">
 							<div id="blackc">
@@ -501,12 +501,33 @@
 								</div>
 							</div>
 							<div class="col-md-5" id="image">
-								<img src="images/red.png" width="100%">
+								<img src="../images/red.png" width="100%">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div id="panel2" onblur="fade()">Hello world!</div>
+				<div id="panel2" onclick="slide();">Hello world!</div>
+
+			</div>
+			<div class="container">
+				<div class="d-flex no-gutters">
+					<div class="boxes" id="box3">
+						<div class="row">
+							<div class="col-md-7">
+								<div id="blackc">
+									<p>some text some text some text some text some text some text some text some text some text some text some text some text</p>
+									<div>
+										<span id="click2">Read More</span> <span>Some text</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5" id="image">
+								<img src="../images/red.png" width="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="panel2" onclick="slide();">Hello world!</div>
 
 			</div>
     </section>
