@@ -9387,7 +9387,7 @@ textarea.form-control {
   background-color: red;
 }
 #box3 {
-  background-color: yellow;
+  background-color: var(--yellow);
 }
 
 #blackc {
